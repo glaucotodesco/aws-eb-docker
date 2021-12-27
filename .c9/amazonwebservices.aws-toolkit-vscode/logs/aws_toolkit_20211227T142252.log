@@ -1,0 +1,207 @@
+2021-12-27 14:22:53 [ERROR]: log level: info
+2021-12-27 14:22:53 [INFO]: Retrieving AWS endpoint data
+2021-12-27 14:22:53 [INFO]: OS:  Linux x64 4.14.256-197.484.amzn2.x86_64
+2021-12-27 14:22:53 [INFO]: AWS Cloud9 Extension Host Version:  1.44.2AWS Toolkit Version:  1.33.0
+2021-12-27 14:22:53 [ERROR]: Error loading resource from /home/ec2-user/environment/.c9/amazonwebservices.aws-toolkit-vscode/cloudformation.schema.json: [Error: ENOENT: no such file or directory, open '/home/ec2-user/environment/.c9/amazonwebservices.aws-toolkit-vscode/cloudformation.schema.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ec2-user/environment/.c9/amazonwebservices.aws-toolkit-vscode/cloudformation.schema.json'
+}
+2021-12-27 14:22:53 [ERROR]: Could not refresh schemas:
+2021-12-27 14:27:53 [INFO]: telemetry: sent batch (size=5)
+2021-12-27 15:10:19 [INFO]: autoconnect: connected: 'profile:default'
+2021-12-27 15:12:53 [INFO]: telemetry: sent batch (size=3)
+2021-12-27 22:09:39 [ERROR]: [ExpiredTokenException: The security token included in the request is expired
+	at Object.p [as extractError] (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:5:7865)
+	at constructor.e (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:5:12698)
+	at constructor.callListeners (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:21118)
+	at constructor.emit (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:20827)
+	at constructor.emitEvent (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:6680)
+	at constructor.e (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:2266)
+	at F.runTo (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:18:1767)
+	at /opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:18:1979
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:2477)
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:6735)
+	at constructor.callListeners (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:21222)
+	at constructor.emit (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:20827)
+	at constructor.emitEvent (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:6680)
+	at constructor.e (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:2266)
+	at F.runTo (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:18:1767)
+	at /opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:18:1979
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:2477)
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:6735)
+	at constructor.callListeners (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:21222)
+	at e (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:21003)
+	at IncomingMessage.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:1:203555)
+	at IncomingMessage.emit (events.js:326:22)
+	at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+	at endReadableNT (_stream_readable.js:1241:12)
+	at processTicksAndRejections (internal/process/task_queues.js:84:21)] {
+  code: 'ExpiredTokenException',
+  time: 2021-12-27T22:09:39.684Z,
+  requestId: '8efef5cd-748d-44e5-8d3a-f1371e70d57d',
+  statusCode: 403,
+  retryable: true
+}
+2021-12-27 22:09:41 [ERROR]: [ExpiredTokenException: The security token included in the request is expired
+	at constructor.p (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:5:7865)
+	at constructor.callListeners (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:21118)
+	at constructor.emit (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:20827)
+	at constructor.emitEvent (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:6680)
+	at constructor.e (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:2266)
+	at F.runTo (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:18:1767)
+	at /opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:18:1979
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:2477)
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:6735)
+	at constructor.callListeners (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:21222)
+	at constructor.emit (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:20827)
+	at constructor.emitEvent (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:6680)
+	at constructor.e (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:2266)
+	at F.runTo (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:18:1767)
+	at /opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:18:1979
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:2477)
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:6735)
+	at constructor.callListeners (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:21222)
+	at e (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:21003)
+	at IncomingMessage.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:1:203555)
+	at IncomingMessage.emit (events.js:326:22)
+	at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+	at endReadableNT (_stream_readable.js:1241:12)
+	at processTicksAndRejections (internal/process/task_queues.js:84:21)] {
+  code: 'ExpiredTokenException',
+  time: 2021-12-27T22:09:41.271Z,
+  requestId: '8b02c878-3c05-4dfc-87f9-9bfab57cf7e2',
+  statusCode: 400,
+  retryable: true
+}
+2021-12-27 22:09:42 [ERROR]: [ExpiredToken: The security token included in the request is expired
+	at constructor.y (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:5:9005)
+	at constructor.callListeners (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:21118)
+	at constructor.emit (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:20827)
+	at constructor.emitEvent (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:6680)
+	at constructor.e (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:2266)
+	at F.runTo (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:18:1767)
+	at /opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:18:1979
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:2477)
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:6735)
+	at constructor.callListeners (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:21222)
+	at constructor.emit (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:20827)
+	at constructor.emitEvent (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:6680)
+	at constructor.e (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:2266)
+	at F.runTo (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:18:1767)
+	at /opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:18:1979
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:2477)
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:6735)
+	at constructor.callListeners (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:21222)
+	at e (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:21003)
+	at IncomingMessage.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:1:203555)
+	at IncomingMessage.emit (events.js:326:22)
+	at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+	at endReadableNT (_stream_readable.js:1241:12)
+	at processTicksAndRejections (internal/process/task_queues.js:84:21)] {
+  code: 'ExpiredToken',
+  time: 2021-12-27T22:09:42.842Z,
+  requestId: 'ca1a7df0-fe01-4d79-bf08-7fa9b5e7a532',
+  statusCode: 403,
+  retryable: true
+}
+2021-12-27 22:09:44 [ERROR]: [ExpiredTokenException: The security token included in the request is expired
+	at constructor.p (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:5:7865)
+	at constructor.callListeners (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:21118)
+	at constructor.emit (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:20827)
+	at constructor.emitEvent (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:6680)
+	at constructor.e (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:2266)
+	at F.runTo (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:18:1767)
+	at /opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:18:1979
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:2477)
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:6735)
+	at constructor.callListeners (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:21222)
+	at constructor.emit (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:20827)
+	at constructor.emitEvent (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:6680)
+	at constructor.e (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:2266)
+	at F.runTo (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:18:1767)
+	at /opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:18:1979
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:2477)
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:6735)
+	at constructor.callListeners (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:21222)
+	at e (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:21003)
+	at IncomingMessage.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:1:203555)
+	at IncomingMessage.emit (events.js:326:22)
+	at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+	at endReadableNT (_stream_readable.js:1241:12)
+	at processTicksAndRejections (internal/process/task_queues.js:84:21)] {
+  code: 'ExpiredTokenException',
+  time: 2021-12-27T22:09:44.315Z,
+  requestId: 'b6dde480-591d-4969-bc5e-dcd810356bc7',
+  statusCode: 400,
+  retryable: true
+}
+2021-12-27 22:09:48 [ERROR]: Failed to list buckets: [ExpiredToken: The provided token has expired.
+	at constructor.extractError (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:8:10098)
+	at constructor.callListeners (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:21118)
+	at constructor.emit (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:20827)
+	at constructor.emitEvent (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:6680)
+	at constructor.e (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:2266)
+	at F.runTo (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:18:1767)
+	at /opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:18:1979
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:2477)
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:6735)
+	at constructor.callListeners (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:21222)
+	at constructor.emit (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:20827)
+	at constructor.emitEvent (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:6680)
+	at constructor.e (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:2266)
+	at F.runTo (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:18:1767)
+	at /opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:18:1979
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:2477)
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:6735)
+	at constructor.callListeners (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:21222)
+	at e (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:21003)
+	at IncomingMessage.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:1:203555)
+	at IncomingMessage.emit (events.js:326:22)
+	at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+	at endReadableNT (_stream_readable.js:1241:12)
+	at processTicksAndRejections (internal/process/task_queues.js:84:21)] {
+  code: 'ExpiredToken',
+  region: null,
+  time: 2021-12-27T22:09:48.385Z,
+  requestId: '1CXS6W9VTDB6251R',
+  extendedRequestId: '1PPIZaQi3Ar28upjTkXBQ8vI5UxpZt7X6fgnU0qpOOwvFDu4Gfpt9lDjqcSwO351P8BeRKw3uVg=',
+  cfId: undefined,
+  statusCode: 400,
+  retryable: true
+}
+2021-12-27 22:09:48 [ERROR]: [ExpiredToken: The provided token has expired.
+	at constructor.extractError (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:8:10098)
+	at constructor.callListeners (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:21118)
+	at constructor.emit (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:20827)
+	at constructor.emitEvent (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:6680)
+	at constructor.e (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:2266)
+	at F.runTo (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:18:1767)
+	at /opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:18:1979
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:2477)
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:6735)
+	at constructor.callListeners (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:21222)
+	at constructor.emit (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:20827)
+	at constructor.emitEvent (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:6680)
+	at constructor.e (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:2266)
+	at F.runTo (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:18:1767)
+	at /opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:18:1979
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:2477)
+	at constructor.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:6735)
+	at constructor.callListeners (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:21222)
+	at e (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:6:21003)
+	at IncomingMessage.<anonymous> (/opt/c9/dependencies/aws-toolkit-vscode/6b4306b6dd341292c7d4e8b5c4bd242a603a874b18a8009977ab483b56b0730187d95196fc3265765224feb6e59f940386e1e92ff831bb2ab04f862b7bb8f941/dist/extension.js:1:203555)
+	at IncomingMessage.emit (events.js:326:22)
+	at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+	at endReadableNT (_stream_readable.js:1241:12)
+	at processTicksAndRejections (internal/process/task_queues.js:84:21)] {
+  code: 'ExpiredToken',
+  region: null,
+  time: 2021-12-27T22:09:48.385Z,
+  requestId: '1CXS6W9VTDB6251R',
+  extendedRequestId: '1PPIZaQi3Ar28upjTkXBQ8vI5UxpZt7X6fgnU0qpOOwvFDu4Gfpt9lDjqcSwO351P8BeRKw3uVg=',
+  cfId: undefined,
+  statusCode: 400,
+  retryable: true
+}
